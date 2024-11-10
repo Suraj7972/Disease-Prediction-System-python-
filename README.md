@@ -1,5 +1,6 @@
 # Disease-Prediction-System-python-
 This article aims to implement a robust machine-learning model that can efficiently predict the disease of a human, based on the symptoms that he/she possesses. Let us look into how we can approach this machine-learning problem:
+![Screenshot 2024-11-10 154337](https://github.com/user-attachments/assets/de3536fa-1a06-49fe-9b29-f3587bff83ac)
 
 Approach:
 
@@ -9,6 +10,8 @@ Model Building: After gathering and cleaning the data, the data is ready and can
 Inference: After training the three models we will be predicting the disease for the input symptoms by combining the predictions of all three models. This makes our overall prediction more robust and accurate.
 At last, we will be defining a function that takes symptoms separated by commas as input, predicts the disease based on the symptoms by using the trained models, and returns the predictions in a JSON format. 
 
+![Screenshot 2024-11-10 154407](https://github.com/user-attachments/assets/f7e87708-0f58-4f17-969b-5db70f91874c)
+
 Implementation:
 
 
@@ -16,6 +19,9 @@ Implementation:
 
 Make sure that the Training and Testing are downloaded and the train.csv, test.csv are put in the dataset folder. Open jupyter notebook and run the code individually for better understanding.
 This Python script implements a disease prediction system using machine learning models trained on a medical dataset. It combines predictions from three different models (Support Vector Machine, Naive Bayes, Random Forest) to provide a more robust diagnosis suggestion.
+
+![Screenshot 2024-11-10 154429](https://github.com/user-attachments/assets/0a019899-b98c-4eed-91ab-9b78c25e19c9)
+
 
 Key Features:
 
